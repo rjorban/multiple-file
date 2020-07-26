@@ -1,8 +1,32 @@
+/**
+ * CONTENTS
+ *
+ * HEADER
+ *
+ * NAVIGATION
+ *
+ * MAIN CONTENT
+ *
+ * SIDEBAR
+ *
+ * ADVERTISEMENT
+ *
+ * FOOTER
+ */
+
+/*------------------------------------*\
+  #HEADER
+\*------------------------------------*/
+
 .main-head {
   background-color: var(--bg-primary);
   display: flex;
   justify-content: center;
 }
+
+/*------------------------------------*\
+  #NAVIGATION
+\*------------------------------------*/
 
 .main-nav {
   background-color: var(--bg-secondary);
@@ -31,6 +55,10 @@
   }
 }
 
+/*------------------------------------*\
+  #MAIN CONTENT
+\*------------------------------------*/
+
 .content {
   background-color: var(--bg-secondary);
 }
@@ -39,15 +67,27 @@
   margin-left: 3em;
 }
 
+/*------------------------------------*\
+  #SIDEBAR
+\*------------------------------------*/
+
 .side {
   background-color: var(--bg-secondary);
 }
+
+/*------------------------------------*\
+  #ADVERTISEMENT
+\*------------------------------------*/
 
 .ad {
   background-color: var(--bg-alert);
   color: var(--secondary-font-color);
   text-align: center;
 }
+
+/*------------------------------------*\
+  #FOOTER
+\*------------------------------------*/
 
 .main-footer {
   background-color: var(--bg-primary);
